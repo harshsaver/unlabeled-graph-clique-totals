@@ -1,5 +1,11 @@
 # Total cliques over all unlabeled graphs — new terms for OEIS A401214 / A401215 / A401216
 
+> **TL;DR.** Add up the cliques of every unlabeled graph on n vertices. The OEIS had these
+> totals only up to n = 10. A weighted-Burnside formula computes them exactly in minutes
+> instead of listing graphs. We give the totals up to n = 31 (all clique sizes) and n = 60
+> (triangles). The results are checked against every known term and against an independent
+> brute force over all 1,018,997,864 graphs on 11 vertices.
+
 **Result.** New exact values of three OEIS sequences (created Oct 2026, tagged `more`;
 as of 2026-11-11 the OEIS lists only up to n = 9 / 10):
 
