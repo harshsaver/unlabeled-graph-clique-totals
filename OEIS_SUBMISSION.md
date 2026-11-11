@@ -7,7 +7,7 @@ Data lines may hold at most ~260 characters, so only the first terms are shown t
 
 ## A401214 (triangle T(n,k))
 
-**b-file:** `b401214.txt` (rows n = 0..31)
+**b-file:** `b401214.txt` (rows n = 0..34)
 
 **Formula:**
 T(n,k) = Sum_{partitions p of n} (1/z_p) * Sum_{k-subsets S of the vertices} 2^(E(p) - h(p,S)), where for any permutation g of cycle type p, E(p) = Sum_i floor(p_i/2) + Sum_{i<j} gcd(p_i,p_j) is the number of edge orbits of g, h(p,S) is the number of those orbits containing a pair of vertices of S, and z_p = Prod_i i^m_i * m_i! (weighted Burnside lemma).
@@ -16,13 +16,13 @@ T(n,k) = Sum_{partitions p of n} (1/z_p) * Sum_{k-subsets S of the vertices} 2^(
 
 **Program:** (Python) — see below.
 
-**Extensions:** Rows n = 10..31 from _[your OEIS name]_, Nov 2026
+**Extensions:** Rows n = 10..34 from _[your OEIS name]_, Nov 2026
 
 ---
 
 ## A401215 (total cliques)
 
-**b-file:** `b401215.txt` (n = 0..31)
+**b-file:** `b401215.txt` (n = 0..34)
 
 **Data (extend to):**
 ```
@@ -31,7 +31,7 @@ T(n,k) = Sum_{partitions p of n} (1/z_p) * Sum_{k-subsets S of the vertices} 2^(
 
 **Formula:** a(n) = Sum_{k=0..n} T(n,k), with T(n,k) as in A401214.
 
-**Extensions:** a(11)-a(31) from _[your OEIS name]_, Nov 2026
+**Extensions:** a(11)-a(34) from _[your OEIS name]_, Nov 2026
 
 ---
 

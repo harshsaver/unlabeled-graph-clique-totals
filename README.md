@@ -2,7 +2,7 @@
 
 > **TL;DR.** Add up the cliques of every unlabeled graph on n vertices. The OEIS had these
 > totals only up to n = 10. A weighted-Burnside formula computes them exactly in minutes
-> instead of listing graphs. We give the totals up to n = 31 (all clique sizes) and n = 60
+> instead of listing graphs. We give the totals up to n = 34 (all clique sizes) and n = 60
 > (triangles). The results are checked against every known term and against an independent
 > brute force over all 1,018,997,864 graphs on 11 vertices.
 
@@ -11,8 +11,8 @@ as of 2026-11-11 the OEIS lists only up to n = 9 / 10):
 
 | Sequence | Meaning | OEIS had | Now computed |
 |---|---|---|---|
-| A401214 | T(n,k) = total number of k-cliques over all unlabeled simple graphs on n vertices (triangle) | rows n ≤ 9 | rows n ≤ 31 |
-| A401215 | total number of cliques (any size, incl. empty) over all unlabeled graphs on n vertices | n ≤ 10 | n ≤ 31 |
+| A401214 | T(n,k) = total number of k-cliques over all unlabeled simple graphs on n vertices (triangle) | rows n ≤ 9 | rows n ≤ 34 |
+| A401215 | total number of cliques (any size, incl. empty) over all unlabeled graphs on n vertices | n ≤ 10 | n ≤ 34 |
 | A401216 | total number of triangles over all unlabeled graphs on n vertices | n ≤ 10 | n ≤ 60 |
 
 (Equivalently: total independent sets, by complementation.)  Full data: `b401214.txt`,
